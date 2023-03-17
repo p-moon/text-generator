@@ -15,5 +15,5 @@ model_path = os.path.join(model_path, model_name)
 
 text_gen = TextGenerator(model_path=model_path)
 
-text_gen.train(train_data=train_data)
+text_gen.train(train_data=train_data, epoch=5)
 text_gen.save()
